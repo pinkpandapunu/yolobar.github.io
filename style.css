@@ -1,0 +1,234 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(60deg, #542e82,#000000, #000000 );
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+/*Logo*/
+.logo{
+    margin: 2rem;
+    top:0;
+    left: 0;
+}
+
+/* Background video*/
+/* Background video*/
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    min-height:100vh;
+    padding-bottom: 100px;
+}
+
+
+.video-bg{
+    z-index: -1;
+    width: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0; 
+    min-width: 100%;
+    min-height: 100%;
+} 
+
+body{
+    font-family: "montserrat";
+}
+
+.navbar{
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding:0 0 4.5rem;
+    justify-content: space-between;
+    color: #fff;
+
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "montserrat";
+    font-weight: 300;
+}
+
+
+.navbar-brand{
+    font-family: "ubuntu";
+    font-weight: bold;
+    font-size: 2.5rem;
+    
+}
+
+h1{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-family: "montserrat", sans-serif;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+
+
+h2{
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+
+
+h3{
+    font-family: "montserrat";
+    font-weight: bold;
+    font-size: 2.3rem;
+    color: aliceblue;
+}
+
+p{
+    color: #ffffff;
+}
+.container-fluid{
+    padding: 3% 15%;
+    padding-bottom: 100px;
+}
+
+.dwb{
+    margin: 5% 3% 5%;
+}
+
+.iphone{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+/* Feature section*/
+  
+#features{
+    padding: 7% 10%;
+    position: relative;
+ 
+  }
+  
+
+.bottom{
+    text-align: center;
+    padding:5%
+}
+
+span{
+    color: #ae00ff;
+    margin-bottom: 8%;
+}
+
+span:hover{
+    color: #ff0505;
+}
+
+/* Testimonial */
+
+#staff{
+    text-align: center;
+    color: antiquewhite;
+}
+
+.staffPic{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+
+}
+/* press */
+
+#press{
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.logos{
+    width: 15%;
+    margin:  20px 50px;
+}
+
+/* carousel */
+
+.carousel-item{
+    padding:7% 15% ;
+}
+
+/*Events*/
+
+.event-picture1{
+    width: 25%;
+    float: right;
+    padding-left: 30px;
+    border-radius: 100%;
+}
+.event-picture2{
+    width: 25%;
+    float: left;
+    padding-right: 30px;
+    border-radius: 100%;
+}
+.イベント-row{
+    width: 50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+    color: #fff;
+}
+
+
+
+
+
+
+#randa{    
+    text-align: center;
+}
+
+.cth{
+    font-family: "montserrat";
+    font-weight:bolder;
+    text-align: center;
+    font-size: 2rem;
+    color: aliceblue;
+}
+
+.ctbb{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 3% 2%;
+    margin: 5% 3% 5% 0;
+}
+.ctbb:hover{
+    background-color: #ce85ff;
+}
+
+#footer{
+    text-align: center;
+}
+
+.map{
+    display: flex;
+    text-align: left;
+    margin-left: 100px;
+    padding: 50px;
+}
